@@ -2,7 +2,7 @@ import sys;
 import os;
 import getpass;
 
-file = open('.title', 'r')
+file = open('title', 'r')
 
 print "\033[0;32m"+file.read()+"\033[1;m";
 
